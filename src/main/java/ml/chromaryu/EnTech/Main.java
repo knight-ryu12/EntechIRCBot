@@ -18,7 +18,7 @@ public class Main {
                     .setAutoReconnect(true)
                     .setRealName("EnTech Bot")
                     .addAutoJoinChannel(args[2])
-                    .addListener(new AleatMe())
+                    //.addListener(new AleatMe()) //TODO: Make AlertMe
                     .buildConfiguration();
             bot.startbot(conf);
         } else {
